@@ -49,17 +49,23 @@
 				</div>
 			</div>
 
-			<div class="row border-top py-4">
-				<div class="col">© 2018 {{$root.company}}. All rights reserved.</div>
-				<div class="col"></div>
-				<div class="col"></div>
+			<div class="row bottom py-4">
+				<div class="col">© {{$root.year+' '+$root.company}}. All rights reserved.</div>
+				<div class="col text-right">
+					<gora-logo style="height: 30px"/>
+				</div>
 			</div>
 		</div>
 	</footer>
 </template>
 
 <script>
+    import GoraLogo from '../components/gora-logo'
+
     export default {
-        name: 'SectionFooter'
+        name: 'SectionFooter',
+        components: {
+            GoraLogo
+        }
     }
 </script>

@@ -10,6 +10,7 @@ new Vue({
   router,
   data() {
     return {
+      year: '2018',
       company: 'TestCompany'
     }
   },
