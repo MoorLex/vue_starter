@@ -2,7 +2,7 @@
 	<nav class="topbar py-3 position-absolute">
 		<div class="container">
 
-			<a class="topbar-brand" href="#">Navbar w/ text</a>
+			<a class="topbar-brand" href="#">{{$root.company}}</a>
 
 			<ul class="nav topbar-nav ml-auto">
 				<li class="nav-item active">
