@@ -2,9 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/Home'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
+  linkActiveClass: 'active',
+  hashbang: false,
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -12,4 +15,4 @@ export default new Router({
       component: Home
     }
   ]
-})
+});
