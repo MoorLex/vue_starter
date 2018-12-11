@@ -50,7 +50,7 @@
 			</div>
 
 			<div class="row bottom py-4">
-				<div class="col">© {{$root.year+' '+$root.company}}. All rights reserved.</div>
+				<div class="col"><small>© {{$root.year+' '+$root.company}}. All rights reserved.</small></div>
 				<div class="col text-right">
 					<gora-logo style="height: 30px"/>
 				</div>

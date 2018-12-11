@@ -1,10 +1,10 @@
 <template>
 	<nav class="topbar py-3 position-absolute">
-		<div class="container">
+		<div class="container flex-column flex-sm-row">
 
 			<a class="topbar-brand" href="#">{{$root.company}}</a>
 
-			<ul class="nav topbar-nav ml-auto">
+			<ul class="nav topbar-nav ml-sm-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 				</li>
