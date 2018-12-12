@@ -2,6 +2,7 @@
   <div class="home-page">
     <c-navbar/>
     <s-header/>
+    <main class="main"></main>
     <s-footer/>
   </div>
 </template>
