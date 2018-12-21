@@ -11,6 +11,7 @@ let vue = new Vue({
   data() {
     return {
       year: '2018',
+      author: 'Wild Weber',
       company: 'TestCompany'
     }
   },

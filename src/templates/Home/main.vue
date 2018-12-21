@@ -1,23 +1,24 @@
 <template>
   <div class="home-page">
-    <c-navbar/>
-    <s-header/>
+    <main-navbar/>
+    <home-hero/>
     <main class="main"></main>
-    <s-footer/>
+    <main-footer/>
   </div>
 </template>
 
 <script>
-  import CNavbar from '../components/c-navbar'
-  import SHeader from '../sections/s-header'
-  import SFooter from '../sections/s-footer'
+  import MainNavbar from '../navbar'
+  import MainFooter from '../footer'
+
+  import HomeHero from './sections/hero'
 
   export default {
     name: 'HomePage',
     components: {
-        CNavbar,
-        SHeader,
-        SFooter
+        MainNavbar,
+        MainFooter,
+        HomeHero
     },
     data () {
       return {

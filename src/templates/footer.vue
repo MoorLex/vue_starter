@@ -2,7 +2,7 @@
 	<footer class="footer">
 		<div class="container">
 
-			<div class="row py-5">
+			<div class="row py-5 no-select">
 
 				<div class="col"></div>
 
@@ -50,9 +50,9 @@
 			</div>
 
 			<div class="row bottom py-4">
-				<div class="col"><small>© {{$root.year+' '+$root.company}}. All rights reserved.</small></div>
+				<div class="col"><small>© {{$root.year+' '+$root.author}}. All rights reserved.</small></div>
 				<div class="col text-right">
-					<gora-logo style="height: 30px"/>
+					<ww-logo/>
 				</div>
 			</div>
 		</div>
@@ -60,12 +60,12 @@
 </template>
 
 <script>
-    import GoraLogo from '../components/gora-logo'
+    import WwLogo from './logo'
 
     export default {
-        name: 'SectionFooter',
+        name: 'MainFooter',
         components: {
-            GoraLogo
+            WwLogo
         }
     }
 </script>

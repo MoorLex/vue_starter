@@ -1,12 +1,12 @@
 <template>
-	<nav class="topbar py-3 position-absolute">
-		<div class="container flex-column flex-sm-row">
+	<nav class="navbar page-navbar navbar-expand navbar-light position-absolute w-100 no-select">
+		<div class="container">
 
-			<a class="topbar-brand" href="#">{{$root.company}}</a>
+			<router-link to="/" class="navbar-brand font-weight-bold">Wild Weber</router-link>
 
-			<ul class="nav topbar-nav ml-sm-auto">
+			<ul class="nav navbar-nav ml-sm-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Features</a>
