@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import './libs'
 
 Vue.config.productionTip = false;
 
@@ -15,6 +16,7 @@ let vue = new Vue({
       company: 'TestCompany'
     }
   },
+  render: h => h(App),
   components: { App },
   template: '<App/>'
 });

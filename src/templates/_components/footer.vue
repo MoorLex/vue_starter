@@ -51,21 +51,15 @@
 
 			<div class="row bottom py-4">
 				<div class="col"><small>© {{$root.year+' '+$root.author}}. All rights reserved.</small></div>
-				<div class="col text-right">
-					<ww-logo/>
-				</div>
+				<div class="col text-right">Site</div>
 			</div>
 		</div>
 	</footer>
 </template>
 
 <script>
-    import WwLogo from './logo'
-
-    export default {
-        name: 'MainFooter',
-        components: {
-            WwLogo
-        }
-    }
+  export default {
+    name: 'MainFooter',
+    components: {}
+  }
 </script>

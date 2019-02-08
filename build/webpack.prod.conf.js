@@ -119,6 +119,22 @@ const webpackConfig = merge(baseWebpackConfig, {
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }
+    ]),
+
+    // copy custom robots.txt
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, '../robots.txt'),
+        to: config.build.assetsRoot
+      }
+    ]),
+
+    // copy custom .htaccess
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, '../.htaccess'),
+        to: config.build.assetsRoot
+      }
     ])
   ]
 })

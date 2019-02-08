@@ -8,7 +8,7 @@
 </template>
 
 <script>
-    export default {
-        name: 'SectionHeader'
-    }
+  export default {
+  	name: 'SectionHeader'
+  }
 </script>

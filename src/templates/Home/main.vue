@@ -8,24 +8,20 @@
 </template>
 
 <script>
-  import MainNavbar from '../navbar'
-  import MainFooter from '../footer'
+  import MainNavbar from '../_components/navbar'
+  import MainFooter from '../_components/footer'
 
   import HomeHero from './sections/hero'
 
   export default {
     name: 'HomePage',
-    components: {
-        MainNavbar,
-        MainFooter,
-        HomeHero
-    },
     data () {
-      return {
-        msg: 'Welcome to Your Vue.js App'
-      }
+      return {}
+    },
+    components: {
+      MainNavbar,
+      MainFooter,
+      HomeHero
     }
   }
 </script>
-
-<style lang="scss" scoped></style>

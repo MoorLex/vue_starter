@@ -1,6 +1,7 @@
 # Starter
 
 > Starter description
+> sudo npm install --save --unsafe-perm node-sass
 
 ## Build Setup
 

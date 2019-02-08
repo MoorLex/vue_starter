@@ -20,7 +20,7 @@
 </template>
 
 <script>
-    export default {
-        name: 'ComponentNavbar'
-    }
+  export default {
+    name: 'ComponentNavbar'
+  }
 </script>
