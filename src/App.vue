@@ -1,13 +1,5 @@
 <template>
-    <div class="app">
-        <router-view/>
-    </div>
+  <div class="container center-content">
+    <RouterView />
+  </div>
 </template>
-
-<script>
-  export default {
-      name: 'App'
-  }
-</script>
-
-<style lang="scss" src="./styles/app.scss"></style>

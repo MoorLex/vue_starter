@@ -1,7 +1,5 @@
-# Starter
-
-> Starter description
-> sudo npm install --save --unsafe-perm node-sass
+# vue-webpack4-template
+VueJs template using Webpack 4
 
 ## Build Setup
 
@@ -14,12 +12,6 @@ npm dev
 
 # build for production with minification
 npm build
-
-# build for production and view the bundle analyzer report
-npm build --report
-
-# run unit tests
-npm unit
 
 # run all tests
 npm test
