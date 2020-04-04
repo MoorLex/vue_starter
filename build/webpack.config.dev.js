@@ -12,12 +12,12 @@ module.exports = merge(baseConfig, {
 
   devServer: {
     clientLogLevel: 'warning',
+    historyApiFallback: true,
     hot: true,
-    contentBase: 'dist',
+    contentBase: '/dist',
     compress: true,
     host: HOST,
     port: PORT,
-    open: true,
     overlay: { warnings: false, errors: true },
     publicPath: '/',
     quiet: true

@@ -19,7 +19,19 @@ module.exports = {
     'vue'
   ],
   rules: {
+    'vue/max-attributes-per-line': ["error", {
+      "singleline": 1,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": true
+      }
+    }],
+    'no-trailing-spaces': 'off',
+    'vue/require-default-prop': 'off',
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
     'generator-star-spacing': 'off',
+    'vue/attributes-order': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
 }
