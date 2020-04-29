@@ -8,8 +8,8 @@ module.exports = {
     node: true,
     mocha: true
   },
-  "globals": {
-    "expect": true
+  globals: {
+    expect: true
   },
   extends: [
     'plugin:vue/recommended',
@@ -27,6 +27,7 @@ module.exports = {
       }
     }],
     'no-trailing-spaces': 'off',
+    'vue/order-in-components': 'off',
     'vue/require-default-prop': 'off',
     'vue/html-closing-bracket-newline': 'off',
     'vue/singleline-html-element-content-newline': 'off',
